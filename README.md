@@ -1,4 +1,13 @@
-# blinklight
-arduino blinking lights
+int x = 500;
 
-this is a program for making a blinking light with arduino
+void setup() {
+  // put your setup code here, to run once:
+pinMode(3,OUTPUT);    
+}
+
+void loop() {
+digitalWrite(3,HIGH);
+delay(x);
+digitalWrite(3,LOW);
+delay (x);
+}
