@@ -1,12 +1,3 @@
-int x = 500;
+# Blinklight
 
-void setup() {
- pinMode(3,OUTPUT);    
-}
-
-void loop() {
-digitalWrite(3,HIGH);
-delay(x);
-digitalWrite(3,LOW);
-delay (x);
-}
+Blink an Arduino LED with a given delay.
